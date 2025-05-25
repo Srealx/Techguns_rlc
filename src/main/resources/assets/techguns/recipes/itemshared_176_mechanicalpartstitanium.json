@@ -1,0 +1,20 @@
+{
+  "result": {
+    "item": "techguns:itemshared",
+    "data": 181
+  },
+  "pattern": [
+    "if"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "f": {
+      "item": "techguns:itemshared",
+      "data": 54
+    },
+    "i": {
+      "item": "techguns:itemshared",
+      "data": 85
+    }
+  }
+}

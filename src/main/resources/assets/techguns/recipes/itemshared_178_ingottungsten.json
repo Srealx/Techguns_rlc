@@ -1,0 +1,36 @@
+{
+  "result": {
+    "item": "techguns:itemshared",
+    "data": 177
+  },
+  "ingredients": [
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    },
+    {
+      "item": "#NUGGETTUNGSTEN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
