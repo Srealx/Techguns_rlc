@@ -2183,7 +2183,8 @@ public class GenericGun extends GenericItem implements IGenericGun, IItemTGRende
 			tagCompound = new NBTTagCompound();
 		}
 		int tagDmg = tagCompound.getInteger("Damage");
-		if (this.getDamage(itemStack) != tagDmg){
+		//This is to balance the durability of external destructive tools. Some creatures or debuffs may instantly inflict durability damage, in which case the firearm durability tag needs to be updated synchronously
+		if (this.getDamage(itemStack) > tagDmg){
 			tagCompound.setInteger("Damage",tagDmg + damage);
 		}
 	}
@@ -2226,6 +2227,14 @@ public class GenericGun extends GenericItem implements IGenericGun, IItemTGRende
 		return (float)itemDamage / (float)maxDamage;
 	}
 
+	public int getItemDamage(ItemStack stack){
+	        NBTTagCompound tagCompound = stack.getTagCompound();
+	        if (tagCompound == null){
+		        return 0;
+	        }
+	        return tagCompound.getInteger("Damage");
+	}
+
 
 	private Integer lossDurable(ItemStack stack, float baseLossRate, float reductionRateEveryEnchantLevel){
 		// 消耗枪械耐久
@@ -2255,7 +2264,7 @@ public class GenericGun extends GenericItem implements IGenericGun, IItemTGRende
 					consuming = ((GenericGunEnchantment) enchan).beforeDurabilityLoss(stack,consuming);
 				}
 			}
-			int nextTotalDamage = stack.getItemDamage() + consuming;
+			int nextTotalDamage = this.getItemDamage(stack) + consuming;
 			if (nextTotalDamage > (int)(stack.getMaxDamage()*0.95f)){
 				nextTotalDamage = (int)(stack.getMaxDamage()*0.95f);
 			}
