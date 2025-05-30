@@ -2259,7 +2259,8 @@ public class GenericGun extends GenericItem implements IGenericGun, IItemTGRende
 			if (nextTotalDamage > (int)(stack.getMaxDamage()*0.95f)){
 				nextTotalDamage = (int)(stack.getMaxDamage()*0.95f);
 			}
-			stack.setItemDamage(nextTotalDamage);
+		        this.setItemDamage(stack,nextTotalDamage);
+			// stack.setItemDamage(nextTotalDamage);
 			return nextTotalDamage;
 		}
 		return null;
