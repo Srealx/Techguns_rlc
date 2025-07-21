@@ -1,0 +1,476 @@
+{
+    "pools": [
+        {
+			"name": "heavycloth",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 60
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.15,
+                            "looting_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "gunpowder",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gunpowder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.2,
+                            "looting_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "rottenflesh",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rotten_flesh",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.15,
+                            "looting_multiplier": 0.05
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "shotgunrounds",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.15,
+                            "looting_multiplier": 0.07
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "shotgunroundsPen",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 165
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.075,
+                            "looting_multiplier": 0.03
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "shotgunroundsIncendiary",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 106
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.075,
+                            "looting_multiplier": 0.03
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pistolrounds",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.2,
+                            "looting_multiplier": 0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pistolroundsPen",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 166
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.06,
+                            "looting_multiplier": 0.03
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pistolroundsStrong",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 176
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.08,
+                            "looting_multiplier": 0.04
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pistolroundsIncendiary",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 109
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.06,
+                            "looting_multiplier": 0.03
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "smgMagazine",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 9
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.06,
+                            "looting_multiplier": 0.03
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "smgMagazinePen",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "techguns:itemshared",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 169
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.04,
+                            "looting_multiplier": 0.02
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "heartdust",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "scalinghealth:heartdust",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.15,
+                            "looting_multiplier": 0.04
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "techguns:itemshared",
+    "data": 159,
+    "count": 16
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone",
+      "data": 1
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 1
+    },
+    {
+      "item": "minecraft:sandstone",
+      "data": 1
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "techguns:itemshared",
+    "data": 161,
+    "count": 20
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}

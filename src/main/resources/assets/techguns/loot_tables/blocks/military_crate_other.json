@@ -1,0 +1,163 @@
+{
+    "pools": [
+        {
+            "name": "other",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "locks:diamond_lock_pick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "locks:gold_lock_pick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "locks:iron_lock_pick",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "waystones:return_scroll"
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "waystones:bound_scroll"
+                },
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "bountifulbaubles:potionrecall",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 10,
+                    "name": "bountifulbaubles:potionwormhole",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "bountifulbaubles:spectralsilt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "artifacts:bottled_cloud"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "xat:glow_ring"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "xat:polarized_stone"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:amuletcross"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:magicmirror"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:amuletsinempty"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:trinketvitamins"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:ringfreeaction"
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "bountifulbaubles:trinketmagiclenses"
+                }
+            ]
+        }
+    ]
+}

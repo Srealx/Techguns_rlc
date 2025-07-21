@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "techguns:itemshared",
+    "data": 183,
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "#INGOTTUNGSTEN"
+    }
+  ],
+  "type": "forge:ore_shapeless"
+}
